@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: .3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    padding: 0 38px;
+}
+
+/* шапка начало */
+header {
+    padding-top: 13px;
+    position: fixed;
+    width: 98vw;
+}
+
+.burger{
+    display: none;
+}
+
+.burgers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.burger-line{
+    width: 30px;
+    height: 3px;
+    background-color: white;
+}
+
+.header-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.menu_items {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.menu_items a {
+    color: white;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu_items a:hover {
+    color: #cfcece;
+    text-decoration: underline;
+}
+
+.logo {
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* шапка конец */
+
+/* баннер начало */
+.banner {
+    background-image: url(../media/banner/bg.png);
+    height: 100vh;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.banner-text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat Alternates;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.line {
+    width: 781px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.40);
+}
+
+.banner-subtxt {
+    padding-top: 35px;
+}
+
+.banner-subtxt a {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banner-subtxt a:hover {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 7px 10px;
+}
+
+.dots-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dots {
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.50);
+    width: 15px;
+    height: 15px;
+}
+
+.dots-act {
+    border-radius: 100px;
+    background: #FFF;
+    width: 15px;
+    height: 15px;
+}
+
+.str {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translate(-50%, -50%);
+}
+
+/* баннер конец */
+
+/* каталог начало */
+.katalog-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.katalog-text p:hover {
+    text-decoration: underline;
+}
+
+.tovars {
+    flex-wrap: wrap;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tovar {
+    color: #887569;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.tovar p {
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+.arrow-left {
+    left: 38px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.arrow-right {
+    right: 8px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.tovar font {
+    color: #887569;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+/* каталог конец */
+
+.linee {
+    width: 1890px;
+    height: 1px;
+    background: rgba(136, 117, 105, 0.15);
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+/* футер начало */
+.footer-items {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+}
+
+.footer-item-logo {
+    width: 280px;
+    margin-right: 103px;
+}
+
+.footer-item-logo p {
+    color: #887569;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-item-logo img {
+    margin-bottom: 10px;
+}
+
+.footer-item {
+    margin-right: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-item span {
+    color: #887569;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-item a {
+    color: #887569;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
+}
+
+/* футер конец */
+
+/* адаптив планшет начало*/
+@media (max-width:768px) {
+    .linee {
+        width: 768px;
+    }
+
+    .menu_items a {
+        font-size: 13px;
+    }
+
+    .menu_items {
+        display: none;
+    }
+
+    .icons {
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        position: absolute;
+        right: 30px;
+        top: 13px;
+    }
+
+    .banner-text h3 {
+        font-size: 40px;
+    }
+
+    .line {
+        width: 529px;
+    }
+
+    .right img {
+        width: 10px;
+    }
+
+    .right {
+        right: 24px;
+    }
+
+    .left img {
+        width: 10px;
+    }
+
+    .left {
+        left: 24px;
+    }
+
+    .dots {
+        width: 8px;
+        height: 8px;
+    }
+
+    .dots-act {
+        width: 8px;
+        height: 8px;
+    }
+
+    .dots-item {
+        left: 52%;
+    }
+
+    .footer-item-logo {
+        width: 422px;
+    }
+
+    .footer-items {
+        gap: 20px;
+    }
+
+    .footer-item {
+        margin-right: 55px;
+    }
+
+    .linee {
+        margin-top: 43px;
+        margin-bottom: 43px;
+    }
+
+    .burger{
+        display: block;
+        z-index: 100;
+    }
+}
+
+
+/* адаптив планшет конец */
+
+/* адаптив телефон начало */
+@media (max-width: 375px) {
+
+    header {
+        width: 102vw;
+    }
+    .icons img {
+        width: 13px;
+    }
+
+    .icons {
+        gap: 10px;
+        top: 17px;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+
+    .burger{
+        display: block;
+        z-index: 100;
+    }
+
+    .burgers{
+        margin-top: 3px;
+    }
+
+    .burger-line{
+        width: 20px;
+        height: 2px;
+        background-color: white;
+    }
+
+    .banner-text h3 {
+        font-size: 30px;
+        width: 300px;
+    }
+
+    .line {
+        width: 242px;
+    }
+
+    .banner-subtxt {
+        padding-top: 21px;
+    }
+
+    .right img {
+        width: 7px;
+    }
+
+    .left img {
+        width: 7px;
+    }
+
+    .right {
+        right: 16px;
+    }
+
+    .left {
+        left: 16px;
+    }
+
+    .tovar img {
+        width: 296px;
+    }
+
+    .katalog-text {
+        font-size: 13px;
+    }
+
+    .tovar{
+        margin-top:10px
+    }
+
+    .arrow-left{
+        display: none;
+    }
+
+    .arrow-right{
+        display: none;
+    }
+
+    .footer-item-logo{
+        margin-right: 0;
+    }
+
+    .tovar p {
+        margin-top: 6px;
+        margin-bottom: 1px;
+    }
+
+    .tovars {
+        margin-top: 9px;
+    }
+
+    .linee {
+        width: 375px;
+    }
+}
+
+/* адаптив телефон конец */
