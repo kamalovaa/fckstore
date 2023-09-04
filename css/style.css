@@ -384,8 +384,12 @@ header {
         width: 13px;
     }
 
+    .banner-text{
+        max-width: 80%;
+    }
+
     .icons {
-        gap: 10px;
+        gap: 5px;
         top: 17px;
     }
 
